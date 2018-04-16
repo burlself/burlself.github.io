@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="624px" height="192px" viewBox="0 0 624 192" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Ruby</title>
+    <defs>
+      <style type="text/css">
+        @font-face {
+          font-family: DejaVuSans;
+          src: url('/assets/fonts/DejaVuSans.ttf');
+        }
+        @font-face {
+          font-family: DejaVuSansMono;
+          src: url('/assets/fonts/DejaVuSansMono.ttf');
+        }
+      </style>
+    </defs>
+    <g id="Code" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ruby">
+            <g id="vim-rails">
+                <g id="Base-+-Header">
+                    <rect id="Base" fill-opacity="0.9" fill="#000000" x="0" y="23.9361702" width="624" height="167.553191"></rect>
+                    <g id="Header">
+                        <rect id="Base" fill="#EEF1F5" x="0" y="0" width="624" height="23.9361702"></rect>
+                        <g id="Options" transform="translate(10.000000, 5.984043)">
+                            <ellipse id="Icon" fill="#EF534A" cx="6" cy="5.98404255" rx="6" ry="5.98404255"></ellipse>
+                            <ellipse id="Icon" fill="#EEC04A" cx="25.2467532" cy="5.98404255" rx="6" ry="5.98404255"></ellipse>
+                            <ellipse id="Icon" fill="#97D272" cx="44.4951733" cy="5.98404255" rx="6.00166683" ry="5.98404255"></ellipse>
+                        </g>
+                        <text id="appointment.rb-(~/Co" opacity="0.85" font-family="DejaVuSans, DejaVu Sans" font-size="12" font-weight="300" fill="#525355">
+                            <tspan x="181.723481" y="16.9840426">appointment.rb (~/Code/app/models) - VIM</tspan>
+                        </text>
+                    </g>
+                </g>
+                <text id="Line-Numbers" opacity="0.8" font-family="DejaVuSansMono, DejaVu Sans Mono" font-size="12" font-weight="300" fill="#858585">
+                    <tspan x="14.0347246" y="48.8989362">1</tspan>
+                    <tspan x="14.0347246" y="66.8989362">2</tspan>
+                    <tspan x="14.0347246" y="84.8989362">3</tspan>
+                    <tspan x="14.0347246" y="102.898936">4</tspan>
+                    <tspan x="14.0347246" y="120.898936">5</tspan>
+                    <tspan x="14.0347246" y="138.898936">6</tspan>
+                    <tspan x="14.0347246" y="156.898936">7</tspan>
+                    <tspan x="14.0347246" y="174.898936">8</tspan>
+                    <tspan x="14.0347246" y="192.898936">9</tspan>
+                    <tspan x="6.81011518" y="210.898936">10</tspan>
+                    <tspan x="6.81011518" y="228.898936">11</tspan>
+                    <tspan x="6.81011518" y="246.898936">12</tspan>
+                    <tspan x="6.81011518" y="264.898936">13</tspan>
+                    <tspan x="6.81011518" y="282.898936">14</tspan>
+                    <tspan x="6.81011518" y="300.898936">15</tspan>
+                    <tspan x="6.81011518" y="318.898936">16</tspan>
+                    <tspan x="6.81011518" y="336.898936">17</tspan>
+                    <tspan x="6.81011518" y="354.898936">18</tspan>
+                    <tspan x="6.81011518" y="372.898936">19</tspan>
+                </text>
+                <text id="class-Appointment-&lt;" font-family="DejaVuSansMono, DejaVu Sans Mono" font-size="12" font-weight="300">
+                    <tspan x="31.2" y="48.8989362" fill="#96CBFE">class </tspan>
+                    <tspan x="74.5476563" y="48.8989362" fill="#FFFFB6">Appointment</tspan>
+                    <tspan x="154.018359" y="48.8989362" fill="#96CBFE"> </tspan>
+                    <tspan x="161.242969" y="48.8989362" fill="#F6F3E8">&lt;</tspan>
+                    <tspan x="168.467578" y="48.8989362" fill="#96CBFE"> </tspan>
+                    <tspan x="175.692187" y="48.8989362" fill="#FFFFB6">ApplicationRecord</tspan>
+                    <tspan x="298.510547" y="48.8989362" fill="#96CBFE"></tspan>
+                    <tspan x="31.2" y="66.8989362" fill="#E2E7ED">  </tspan>
+                    <tspan x="45.6492188" y="66.8989362" fill="#96CBFE">include</tspan>
+                    <tspan x="96.2214844" y="66.8989362" fill="#E2E7ED"> </tspan>
+                    <tspan x="103.446094" y="66.8989362" fill="#FFFFB6">TaxableAppointment</tspan>
+                    <tspan x="233.489062" y="66.8989362" fill="#E2E7ED"></tspan>
+                    <tspan x="31.2" y="84.8989362" fill="#E2E7ED"></tspan>
+                    <tspan x="31.2" y="102.898936" fill="#E2E7ED">  </tspan>
+                    <tspan x="45.6492188" y="102.898936" fill="#FFD2A7">validates</tspan>
+                    <tspan x="110.670703" y="102.898936" fill="#F6F3E8"> </tspan>
+                    <tspan x="117.895313" y="102.898936" fill="#00A0A0">:professional</tspan>
+                    <tspan x="211.815234" y="102.898936" fill="#F6F3E8">,     </tspan>
+                    <tspan x="255.162891" y="102.898936" fill="#00A0A0">presence</tspan>
+                    <tspan x="312.959766" y="102.898936" fill="#F6F3E8">: </tspan>
+                    <tspan x="327.408984" y="102.898936" fill="#00A0A0">true</tspan>
+                    <tspan x="356.307422" y="102.898936" fill="#F6F3E8"></tspan>
+                    <tspan x="31.2" y="120.898936" fill="#F6F3E8">  </tspan>
+                    <tspan x="45.6492188" y="120.898936" fill="#FFD2A7">validates</tspan>
+                    <tspan x="110.670703" y="120.898936" fill="#F6F3E8"> </tspan>
+                    <tspan x="117.895313" y="120.898936" fill="#00A0A0">:client</tspan>
+                    <tspan x="168.467578" y="120.898936" fill="#F6F3E8">,           </tspan>
+                    <tspan x="255.162891" y="120.898936" fill="#00A0A0">presence</tspan>
+                    <tspan x="312.959766" y="120.898936" fill="#F6F3E8">: </tspan>
+                    <tspan x="327.408984" y="120.898936" fill="#00A0A0">true</tspan>
+                    <tspan x="356.307422" y="120.898936" fill="#F6F3E8"></tspan>
+                    <tspan x="31.2" y="138.898936" fill="#F6F3E8">  </tspan>
+                    <tspan x="45.6492188" y="138.898936" fill="#FFD2A7">validates</tspan>
+                    <tspan x="110.670703" y="138.898936" fill="#F6F3E8"> </tspan>
+                    <tspan x="117.895313" y="138.898936" fill="#00A0A0">:duration</tspan>
+                    <tspan x="182.916797" y="138.898936" fill="#F6F3E8">,         </tspan>
+                    <tspan x="255.162891" y="138.898936" fill="#00A0A0">presence</tspan>
+                    <tspan x="312.959766" y="138.898936" fill="#F6F3E8">: </tspan>
+                    <tspan x="327.408984" y="138.898936" fill="#00A0A0">true</tspan>
+                    <tspan x="356.307422" y="138.898936" fill="#F6F3E8">, </tspan>
+                    <tspan x="370.756641" y="138.898936" fill="#00A0A0">numericality</tspan>
+                    <tspan x="457.451953" y="138.898936" fill="#F6F3E8">: { </tspan>
+                    <tspan x="486.350391" y="138.898936" fill="#00A0A0">greater_than</tspan>
+                    <tspan x="573.045703" y="138.898936" fill="#F6F3E8">: </tspan>
+                    <tspan x="587.494922" y="138.898936" fill="#FF73FD">0</tspan>
+                    <tspan x="599.719531" y="138.898936" fill="#F6F3E8"> }</tspan>
+                    <tspan x="31.2" y="156.898936" fill="#F6F3E8">  </tspan>
+                    <tspan x="45.6492188" y="156.898936" fill="#FFD2A7">validates</tspan>
+                    <tspan x="110.670703" y="156.898936" fill="#F6F3E8"> </tspan>
+                    <tspan x="117.895313" y="156.898936" fill="#00A0A0">:started_at</tspan>
+                    <tspan x="197.366016" y="156.898936" fill="#F6F3E8">,       </tspan>
+                    <tspan x="255.162891" y="156.898936" fill="#00A0A0">presence</tspan>
+                    <tspan x="312.959766" y="156.898936" fill="#F6F3E8">: </tspan>
+                    <tspan x="327.408984" y="156.898936" fill="#00A0A0">true</tspan>
+                    <tspan x="356.307422" y="156.898936" fill="#F6F3E8"></tspan>
+                    <tspan x="45.6492188" y="174.898936" fill="#F6F3E8">  monetize  </tspan>
+                    <tspan x="117.895313" y="174.898936" fill="#00A0A0">:net_amount_cents</tspan>
+                    <tspan x="240.713672" y="174.898936" fill="#F6F3E8">, </tspan>
+                    <tspan x="255.162891" y="174.898936" fill="#00A0A0">numericality</tspan>
+                    <tspan x="341.858203" y="174.898936" fill="#F6F3E8">: { </tspan>
+                    <tspan x="370.756641" y="174.898936" fill="#00A0A0">greater_than_or_equal_to</tspan>
+                    <tspan x="544.147266" y="174.898936" fill="#F6F3E8">: </tspan>
+                    <tspan x="558.596484" y="174.898936" fill="#FF73FD">0</tspan>
+                    <tspan x="570.821094" y="174.898936" fill="#F6F3E8"> }</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
